@@ -1,0 +1,222 @@
+/* iphone 6/7/8 */
+@media screen  and (min-width:375px){
+
+    .all{
+        width: 100%;
+    }
+
+    .img-bg{
+        height: 220px;
+    }
+
+    .img-pr{
+        top: 130px;
+    }
+
+    .container_date{
+        display: none;
+     }
+
+
+    .name{
+        height: 100px;
+    }
+
+    .number{
+        left: 10px;
+        bottom: -5px;
+    }
+
+    .contact-bt , .follow-bt{
+        width: 160px;
+    }
+
+    .nick-name{
+        top: 30PX;
+    }
+
+    .active_status{ 
+        left: 65%;
+        top: 250px;
+    }
+}
+
+/* iphone 6/7/8 plus */
+@media screen  and (min-width:414px){
+
+    .all{
+        width: 100%;
+    }
+
+    .number{
+        bottom: -7px;
+    }
+
+    .contact-bt , .follow-bt{
+        width: 180px;
+    }
+
+
+    .container_date{
+        display: none;
+     }
+
+     .active_status{ 
+        left: 62%;
+        top: 250px;
+    }
+}
+
+/* iphone x */
+@media screen  and (min-height:812px){
+
+    .all{
+        width: 100%;
+    }
+
+    .img-bg{
+        height: 250px;
+    }
+
+    .contact-bt , .follow-bt{
+        width: 165px;
+        font-size: 12px;
+    }
+
+    .span-more{
+        height: 100px;
+        font-size: 12px;
+    }
+
+    .more-icon{
+        margin-top: 10px;
+    }
+
+    .container_date{
+       font-size: 13px;
+       display: block;
+    }
+
+    .active_status{ 
+        left: 62%;
+        top: 260px;
+    }
+
+    .ct-bt{
+        height: 45px;
+        border-radius: 10px;
+        font-size: 12px;
+    }
+    
+}
+
+/* Small tablet */
+@media screen  and (min-width:600px){
+
+    .all{
+        width: 100%;
+    }
+
+    .img-pr{
+        left: 37%;
+    }
+
+    .ct-bt{
+        height: 40px;
+    }
+
+    .contact-bt , .follow-bt{
+        width: 180px;
+    }
+
+    .follow-bt{
+        margin-left: 15px;
+    }
+
+    .container_date{
+        display: block;
+     }
+
+     .active_status{ 
+        display: none;
+    }
+}
+
+/* ipad */
+@media screen  and (min-width:768px){
+
+    .all{
+        width: 100%;
+    }
+
+    .img-bg{
+        height: 330px;
+    }
+
+    .name{
+        height: 130px;
+    }
+
+    .img-pr{
+        top: 220px;
+        left: 40%;
+        width: 200px;
+        height: 200px;
+    }
+
+    .contact-bt , .follow-bt{
+        width: 230px;
+    }
+
+    .follow-bt{
+        margin-left: 25px;
+    }
+
+    .ct-bt{
+        height: 52px;
+        border-radius: 10px;
+    }
+
+    .full-name{
+        font-size: 50px;
+    }
+
+    .nick-name{
+        font-size: 65px;
+    }
+
+    .container_date{
+        display: block;
+     }
+     
+     .active_status{ 
+        left: 58%;
+        top: 385px;
+    }
+    
+}
+
+/* ipad pro */
+@media screen  and (min-width:1024px){
+    .active_status{ 
+        left: 53%;
+        top: 385px;
+    }
+
+    .all{
+        width: 100%;
+    }
+}
+
+/* ipad pro */
+@media screen  and (min-width:1920px){
+    .active_status{ 
+        left: 48%;
+        top: 372px;
+    }
+
+    .all{
+        width: 60%;
+    }
+
+}
